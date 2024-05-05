@@ -89,10 +89,11 @@ namespace AR51.Unity.SDK.HandsAdapters
 
             var ovrHandType = handType == HandType.LeftHand ? OVRHand.Hand.HandLeft : OVRHand.Hand.HandRight;
             Hand = handRoot.AddComponent<OVRHand>();
+            Skeleton = handRoot.AddComponent<OVRSkeleton>();
+
             Hand.SetValue("HandType", ovrHandType);
 
             var ovrSkeletonType = handType == HandType.LeftHand ? OVRSkeleton.SkeletonType.HandLeft : OVRSkeleton.SkeletonType.HandRight;
-            Skeleton = handRoot.AddComponent<OVRSkeleton>();
             Skeleton.SetValue("_skeletonType", ovrSkeletonType);
             Skeleton.SetValue("_updateRootPose", true);
 
