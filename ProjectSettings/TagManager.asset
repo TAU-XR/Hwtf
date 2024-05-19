@@ -9,11 +9,12 @@ TagManager:
   - RoomLight
   - SamplesInfoPanel
   - PlayerHead
+  - SpectatorCamera
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Characters
   - Water
   - UI
   - 
