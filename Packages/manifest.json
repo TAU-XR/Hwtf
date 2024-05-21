@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.meta.movement": "file:C:/Users/VRAdmin/Documents/Unity Packages/Unity-Movement-main 5/Unity-Movement-main",
     "com.meta.xr.sdk.core": "60.0.0",
     "com.unity.ai.navigation": "1.1.5",
     "com.unity.animation.rigging": "1.2.1",
